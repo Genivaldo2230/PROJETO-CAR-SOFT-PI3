@@ -1,0 +1,86 @@
+body  {
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+}
+#container  {//caixa de pesquisa
+    margin: 1em auto;
+    width: 395px;
+    background: #42422159;
+    font-feature-settings: revert;
+}
+.topo {
+    color: #66FF99;
+    position: center;
+}
+. conteudo{
+    color: brown;
+}
+#header {background: #CF3;}
+#mainnav {background: #9F3; }
+
+#menu  {
+    float: right;
+    width: 165px;
+    background: #6F9;
+}
+#contents  {
+    float: left;
+    width: 340px;
+    background: #54aec9;
+    margin: 0 0 0 20px;
+}
+#footer  {
+    clear: both;
+    background: #FF9;
+}
+
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.1L5lc0e3QhvJd72JIY5wQQHaFj?pid=ImgDet&rs=1");
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.bordaVermelha{
+    border:5px solid red;
+}
+.bordaVerde{
+    border:5px solid green;
+}
+.paddingElemento{
+    padding: 20px;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana,monospace;
+    font-size: 20px;
+}
+/*Roda pe*/
+html, body {
+    height: 100%;
+}
+#tudo {
+    min-height: 100%;
+...
+}
+* html #tudo {
+    height: 100%; /* hack para IE6 que trata height como min-height */
+}
+#tudo {
+    position: relative;
+...
+}
+#rodape {
+    position: absolute;
+    bottom: 0;
+}
+#conteudo {
+    padding-bottom: 30px;
+}
